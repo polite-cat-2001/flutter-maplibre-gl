@@ -13,8 +13,10 @@ dependencies:
   collection: ^1.19.1
   flutter:
     sdk: flutter
-  maplibre_gl_platform_interface: ^0.26.2
-  maplibre_gl_web: ^0.26.2
+  maplibre_gl_platform_interface:
+    path: ../maplibre_gl_platform_interface
+  maplibre_gl_web:
+    path: ../maplibre_gl_web
 
 dev_dependencies:
   flutter_test:

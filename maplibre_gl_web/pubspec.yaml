@@ -22,7 +22,8 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   image: ^4.8.0
-  maplibre_gl_platform_interface: ^0.26.2
+  maplibre_gl_platform_interface:
+    path: ../maplibre_gl_platform_interface
   meta: ^1.16.0
   web: ^1.1.1
 
